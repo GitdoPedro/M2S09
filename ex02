@@ -1,0 +1,12 @@
+    public static void main(String[] args) {
+        try (Connection conn = CriaConexao.getConexao()){
+            Statement stm = conn.createStatement();
+            stm.execute("Insert into banco (nome,conta,valor)"+
+                            "values ('Pedro','000000','1000')"
+             }
+
+        } catch (SQLException e){
+            System.out.println(e.getMessage());
+        }
+    }
+}
