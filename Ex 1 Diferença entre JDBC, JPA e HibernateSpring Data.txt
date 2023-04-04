@@ -1,0 +1,6 @@
+O JDBC é uma API de baixo nível que fornece mais controle, 
+mas exige mais código para implementar recursos básicos.
+O JPA é uma especificação que fornece um alto nível de abstração 
+e permite que os desenvolvedores trabalhem com objetos Java em vez de SQL.
+ O Hibernate e o Spring Data são frameworks que se baseiam no JPA e 
+oferecem recursos adicionais para simplificar o desenvolvimento de aplicativos que usam mapeamento objeto-relacional.
