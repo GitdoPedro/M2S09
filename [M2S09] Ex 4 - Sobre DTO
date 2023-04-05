@@ -1,0 +1,4 @@
+O Padrão DTO (Data Transfer Object) é um padrão de projeto de software que permite transferir dados entre sistemas, processos ou camadas de uma aplicação de forma eficiente e segura. Ele é usado para encapsular e transferir dados entre diferentes partes do sistema, como por exemplo, entre a camada de apresentação e a camada de negócios. Em resumo, DTO é uma classe feita para trafegar entre a aplicação e usuário.
+Algumas boas práticas são recomendadas para o bom uso do DTO:
+- Criar classes DTO que representem apenas os dados necessários para a transferência, sem incluir lógica de negócios ou comportamento complexo
+-Utilizar nomes descritivos para as classes e propriedades DTO, de forma a tornar seu propósito claro;
